@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #f9f5eb;
+}
+
+.box1,
+.box2 {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background-color: grey;
+}
+
+.box2 {
+  background-color: yellow;
+}
+
+.row {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  justify-content: center;
+  gap: 5px;
+}
