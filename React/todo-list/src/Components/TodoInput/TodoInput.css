@@ -1,0 +1,32 @@
+.todo-input{
+    min-height: 100px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.border{
+    display: flex;
+    border:2px solid #00ADB5;
+    height: 50px;
+    padding: 8px;
+}
+
+.todo-input input{
+    background-color: transparent;
+    border: none;
+    flex:1;
+    color: white;
+    outline: none;
+    font-size: 20px;
+}
+
+.todo-input button{
+    background-color: #393E46;
+    border: none;
+    width: 50px;
+    font-size: 35px;
+    color:white;
+
+}
+
